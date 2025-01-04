@@ -1,0 +1,14 @@
+.blog{
+    /* display: none; */
+box-shadow: 10px 10px 10px orchid;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+.practice{
+text-align: center;
+height: 250px;
+background-image: url("1tkBD.jpg");
+background-size: contain;
+
+}
