@@ -60,13 +60,18 @@
             text-align: justify;
             padding: 20px;
         }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
     </style>
 </head>
 
 <body>
-<h1 class="practice"><br><br><br><br><br><br><br>
-    Welcome to my practice Website</h1>
-<br><br><br>
+    <h1 class="practice"><br><br><br><br><br><br><br>
+        Welcome to my practice Website</h1>
+    <br><br><br>
     <div>
         <p>
         <h1>Grocery List</h1>
@@ -176,13 +181,86 @@
         </p>
     </div>
 
-<div>
-    <h1 style="color: blueviolet;">Audio</h1>
-    <h3 style="color: blue;">Valyrie</h3>
-    <audio controls src="Media/swift-valkyrie-remastered-229741.mp3"></audio>
-    
-</div>
+    <div>
+        <h1 style="color: blueviolet;">Audio</h1>
+        <h3 style="color: blue;">Valkyrie</h3>
+        <audio controls src="Media/swift-valkyrie-remastered-229741.mp3"></audio>
+        <br><br>
+        <h3 style="color: blue;">Yellow bird</h3>
+        <video controls width="400px" src="Media/12707805_3840_2160_25fps.mp4"></video>
+        <h3 style="color: blue;">Valhalla song</h3>
 
+        <iframe width="500" height="300" src="https://www.youtube.com/embed/kKAY7YaBVWM?si=RWivsU4H_l2nVYN5"
+            title="YouTube video player" frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+    </div>
+    <br><br><br>
+    <div>
+        <header>
+            <main>
+                <article>
+                    <h1 style="text-align: center;" , style="color: blueviolet;">My trip to forest</h1>
+                    <figure>
+                        <img width="50%" src="Media/Forest pic.jpg" alt="">
+                        <figcaption style="color: blue;"><b>Into the deepth of the forest</b></figcaption>
+                    </figure>
+                    <section>
+                        <p>
+                            **Into the Depth of the Forest** <br>
+
+                            Stepping into the heart of the forest feels like entering an ancient, mystical realm
+                            untouched by time. Towering trees, their branches intertwined, form a natural canopy that
+                            filters sunlight into golden beams. The air is alive with the chirping of birds, the
+                            rustling of leaves, and the distant trickle of a hidden stream. Each step on the soft,
+                            moss-covered ground brings a sense of peace, as if the forest itself is welcoming you into
+                            its embrace.
+                            <br><br>
+                            <time datetime="2025-01-06" , style="color: crimson;">
+                                <p style="text-align: center;"><strong>Published on 6th January,2025</strong></p>
+                            </time>
+                        </p>
+                    </section>
+                </article>
+            </main>
+        </header>
+    </div>
+    <br><br><br>
+    <div>
+        <section>
+            <h1 style="text-align: center;" style="color: blueviolet;">Pitha House</h1> <br>
+            <label for="name">
+                Your name : <input id="name" type="text" placeholder="Your Name">
+            </label>
+            <label for="email">Your Email: <input placeholder="Your Email@" type="email" name="" id="email">
+
+            </label>
+            <label for="phone">
+                Your Phone: <input id="phone" placeholder="+8801........." type="text">
+            </label>
+
+            <fieldset>
+                <legend><b>Pick one Pitha</b></legend>
+                <label for="Vapa"><input type="radio" name="Pitha" id="Vapa">Vapa</label>
+                <label for="Chitoy"> <input type="radio" name="Pitha" id="Chitoy">Chitoy</label>
+                <label for="Puli"> <input type="radio" name="Pitha" id="Puli">Puli</label>
+            </fieldset>
+            <fieldset>
+                <legend>Pick one or more Vorta</legend>
+                <label for="shutki"><input type="checkbox" name="Vorta" id="shutki">shutki</label>
+                <label for="morich"> <input type="checkbox" name="Vorta" id="morich">morich</label>
+                <label for="shorisha"><input type="checkbox" name="Vorta" id="shorisha">shorisha</label>
+            </fieldset>
+            <fieldset>
+                <legend>Special Instructions</legend>
+                <textarea name="" id="" cols="25" rows="10"></textarea>
+            </fieldset>
+            <input type="reset" value="reset">
+            <input type="submit" value="submit">
+        </section>
+    </div>
     <footer>
         <p class="player" , style="color: red;"> &copy; <strong>All rights Reserved </strong></p>
         <br>
